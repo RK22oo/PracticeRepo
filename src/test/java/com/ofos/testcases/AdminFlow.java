@@ -90,6 +90,7 @@ public class AdminFlow {
 		driver.findElement(By.xpath("//img[@alt='user']")).click();
 		driver.findElement(By.xpath("//a[text()=' Logout']")).click();
 		Assert.assertEquals(driver.getTitle(), "Admin Login");
+		//modified by vishwa
 	}
 
 }
