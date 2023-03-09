@@ -14,7 +14,7 @@ import org.testng.Assert;
 public class AdminFlow {
 
 	public static void main(String[] args) {
-
+//test message
 		WebDriver driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		driver.manage().window().maximize();
