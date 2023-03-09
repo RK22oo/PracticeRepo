@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
+//sara
 public class AdminFlow {
 
 	public static void main(String[] args) {
@@ -19,7 +19,9 @@ public class AdminFlow {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+
 //archit
+
 		driver.get("http://rmgtestingserver/domain/Online_Food_Ordering_System/admin/");
 		Assert.assertEquals(driver.getTitle(), "Admin Login");
 
