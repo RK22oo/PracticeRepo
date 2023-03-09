@@ -19,7 +19,7 @@ public class AdminFlow {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
-
+//uhjhjhkj archit gandu
 		driver.get("http://rmgtestingserver/domain/Online_Food_Ordering_System/admin/");
 		Assert.assertEquals(driver.getTitle(), "Admin Login");
 
